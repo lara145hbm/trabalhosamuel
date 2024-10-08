@@ -20,5 +20,5 @@ server.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'trabalho/index.html'))
 })
 server.get('/list-novela', (req, res) => {
-    res.sendFile(path.join(__dirname, 'trabalho/list-novela.html'))
+    res.sendFile(path.join(__dirname, 'trabalho/list-novelas.html'))
 })
